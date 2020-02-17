@@ -1,0 +1,12 @@
+SELECT ?item ?esteka ?euskarazkoIzena ?irudia ?biztanleria WHERE {
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "eu".
+    ?item rdfs:label ?euskarazkoIzena.
+  }
+  ?item wdt:P31 wd:Q2074737.
+    OPTIONAL { ?item wdt:P18 ?irudia. }
+    OPTIONAL { ?item wdt:P1082 ?biztanleria. }
+  ?esteka schema:about ?item;
+    schema:inLanguage "eu";
+    schema:isPartOf <https://eu.wikipedia.org/>.
+}
