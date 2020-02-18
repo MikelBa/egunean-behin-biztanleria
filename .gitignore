@@ -1,7 +1,7 @@
 .idea
 apicache-py3
-.lwp
-.ctrl
+*.lwp
+*.ctrl
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
