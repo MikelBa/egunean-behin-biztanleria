@@ -5,8 +5,8 @@ SELECT ?item ?esteka ?euskarazkoIzena ?irudia ?biztanleria WHERE {
   }
   { ?item wdt:P31 wd:Q2074737. }
   ?item (wdt:P131/(wdt:P131*)/^wdt:P527) wd:Q47588.
+    ?item wdt:P1082 ?biztanleria.
     OPTIONAL { ?item wdt:P18 ?irudia. }
-    OPTIONAL { ?item wdt:P1082 ?biztanleria. }
   ?esteka schema:about ?item;
     schema:inLanguage "eu";
     schema:isPartOf <https://eu.wikipedia.org/>.
