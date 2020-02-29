@@ -77,7 +77,7 @@ def getGaldera(item,herria):
         link = getArtikuluEsteka(herria)
         oker1,oker2 = getOkerrak(zuzena,beheko_muga,goiko_muga)
         galdera_osoa = "%s;%s;%s;%s;%s;%s;%s;%s;%s" % (
-            mota,galdera,irudia,erantzuna,oker1,oker2,iturria,link,zuzena)  # galdera osatu csv formaturako prestatuz
+            mota,galdera,irudia,erantzuna,oker1,oker2,iturria,link,"MikelBa")  # galdera osatu csv formaturako prestatuz
     except:
         galdera_osoa = ''
 

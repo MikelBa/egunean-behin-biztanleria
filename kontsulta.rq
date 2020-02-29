@@ -11,4 +11,3 @@ SELECT ?item ?esteka ?euskarazkoIzena ?irudia ?biztanleria WHERE {
     schema:inLanguage "eu";
     schema:isPartOf <https://eu.wikipedia.org/>.
 }
-LIMIT 20
