@@ -23,7 +23,7 @@ Galdera hauek sortzeko Ion Lizarazuk [Githubera](https://github.com/egunean-behi
  Behin biztanleriaren datu zehatza izanda, erantzun zuzena eta bi oker prestatu behar dira. Horretarako `getPopulazioa` eta `getOkerrak` funtzioak prestatu dira.
 
  ### getPopulazioa
- Funtzio honek kontsultatu hartzen du sarrera bezala. Hortik abiatuz, kontsutatzen ari garen udalerriaren biztanleria lortzen du eta zifra hori barnean duen tarte bat bueltatzen du. Tartearen tamaina, zifra horren tamainaren araberakoa da. Bi kasu bereiztu behar dira:
+ Funtzio honek kontsulta hartzen du sarrera bezala. Hortik abiatuz, kontsutatzen ari garen udalerriaren biztanleria lortzen du eta zifra hori barnean duen tarte bat bueltatzen du. Tartearen tamaina, zifra horren tamainaren araberakoa da. Bi kasu bereiztu behar dira:
 
 * Kontsultatu dugun udalerriaren biztanleria datua 1000 baino txikiagoa bada, soluzioa 100eko tarte bat izango da non beheko eta goiko mugak ehunen multiploak diren eta datu zehatza tartearen barnean dagoen. Hau da, biztanleria datu zehatza 76 bada, bueltatuko den tartea 0-100 da. Aldiz, erantzuna 760 bada, bueltatuko den tartea 700-800 da.
 * Kontsultatu dugun udalerriaren biztanleria datuaren balioa 1.000 edo handiagokoa bada, orduan, bueltatuko dugun tartea zenbaki horren balioaren araberakoa izango da. Demagun biztanleria datu zehatza 16.784 dela, orduan bueltatuko litzatekeen tartea 16.000-17.000 izango zen. Aldiz, biztanleria datu zehatza 167.840 balitz, 160.000-170.000 tartea bultatuko luke funztioak.
