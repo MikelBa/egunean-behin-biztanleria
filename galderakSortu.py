@@ -1,5 +1,6 @@
-import random
 import math
+import random
+
 import pywikibot
 from pywikibot import pagegenerators as pg
 
