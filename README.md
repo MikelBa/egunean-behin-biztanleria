@@ -12,7 +12,7 @@ Hurrengoko adibidearekin argi ikusten da nolakoak diren sortzen diren galderak:
 |  60.000 - 61.000 |
 |  400 - 500 |
 
-Kasu honetan, erantzun zuzena lehena da, 1.000-1.100 biztanle tarte.
+Kasu honetan, erantzun zuzena lehena da, 1.000-1.100 biztanle tartea.
 
 # Nola sortzen dira galdera?
 
