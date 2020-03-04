@@ -39,7 +39,7 @@ Erantzun okerrak tarteak dira ere. Tarte horiek sortzeko prozesua honako hau da:
         round(random.randint(1,9) * 10 ** round(random.gauss(1.5,1)),-2)
         ```
 
-        Hau da, lehenik eta behin  `round(random.gauss(1.5,1))` egiterakoan lortzen dugun zenbakia [-1,4] tartean egongo da %95eko biano probabilitate handiagoaz ([Gaussen distribuzioa](https://en.wikipedia.org/wiki/Normal_distribution#/media/File:Empirical_Rule.PNG)). Orduan, `random.randint(1,9) * 10 ** round(random.gauss(1.5,1))` zenbakia (0,90.000] tartean egongo da lehengo probabilitate berdinez. Azkenik, zenbaki hori ehunekoetara borobiltzen dugu.
+        Hau da, lehenik eta behin  `round(random.gauss(1.5,1))` egiterakoan lortzen dugun zenbakia [-1,4] tartean egongo da %95eko baino probabilitate handiagoarekin ([Gaussen distribuzioa](https://en.wikipedia.org/wiki/Normal_distribution#/media/File:Empirical_Rule.PNG)). Orduan, `random.randint(1,9) * 10 ** round(random.gauss(1.5,1))` zenbakia (0,90.000] tartean egongo da lehengo probabilitate berdinez. Azkenik, zenbaki hori ehunekoetara borobiltzen dugu zenbakia 100 baino txikiagoa den kasuan, bestela, ez du eraginik azkeneko borbilketa honek.
 
     * Udalerriaren biztanle  kopurua 1.000 edo gehiagokoa bada, beheko muga ondoko eran lortzen da:
 
