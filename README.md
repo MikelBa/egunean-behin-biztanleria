@@ -14,7 +14,7 @@ Hurrengoko adibidearekin argi ikusten da nolakoak diren sortzen diren galderak:
 
 Kasu honetan, erantzun zuzena lehena da, 1.000-1.100 biztanle tartea.
 
-# Nola sortzen dira galdera?
+# Nola sortzen dira galderak?
 
 Galdera hauek sortzeko Ion Lizarazuk [Githubera](https://github.com/egunean-behin/egunean_behin_wikidata_perretxikoak) igo zuen Perretxikoen adibidea erabili da oinarri bezala. 
 
