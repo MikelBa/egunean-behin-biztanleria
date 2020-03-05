@@ -1,6 +1,8 @@
 # egunean-behin-biztanleria
 Egunean Behin jokorako biztanleriari buruzko galderak sortzeko programa. Sortzen diren galderen 20 adibide topa daitezke `galderak.csv` dokumentuan.
 
+Egilea: Mikel Barrenetxea Golzarri
+
 ## Ze galdera mota sortzen ditu progra honek?
 Programa honek, Euskal Herriko udalerri desberdinen biztanleria zein den galdetzen digu. Hiru aukera eskaintzen dira erantzuteko eta bakarra da zuzena. Erantzunak ez dira zifra zehatzak, tarteak baizik.
 
